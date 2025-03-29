@@ -16,7 +16,7 @@ public class Participant2 implements Runnable {
 		if(myseat == -1) {
 			System.out.println(Thread.currentThread().getName() + ": Não há mais ingressos");
 		} else {
-			System.out.println(Thread.currentThread().getName() + ": Comprou assento. Restam" + myticket.getAvailableTickets() + " ingressos.");
+			System.out.println(Thread.currentThread().getName() + ": Comprou assento. Restam " + myticket.getAvailableTickets() + " ingressos.");
 		}
 
 	}
